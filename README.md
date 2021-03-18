@@ -12,4 +12,4 @@ To execute the server:
 
 To execute the writer:
 2.1 open cmd, for linux type  gcc -o writer writer.c and for windows = gcc -o writer writer.c -lws2_32
-2.2 type, ./writer arugemtent1 & ./writer arugemnt2 & ./writer arugement3
+2.2 type,   ./writer arugemtent1 & ./writer arugemnt2 & ./writer arugement3
