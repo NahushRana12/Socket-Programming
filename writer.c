@@ -1,5 +1,4 @@
 /* Name - Nahushkumar Nitinbhai Rana
-/* USF id - nrana
 /* compile with in linux = gcc -o writer writer.c 
 /* compile with in windows = gcc -o writer writer.c -lws2_32
 /* writer for socket program*/
@@ -20,16 +19,9 @@
 #endif
 
 
-#define IP_ADDR "131.247.3.8"   /* netcluster's IP address, where server */
-//  #define IP_ADDR "127.0.0.1"                                  
+
+ #define IP_ADDR "127.0.0.1"         //server IP address and if its local then keep the way it is.                      
 #define PORT_NUM 1050               //port number                       
-/* For test #define PORT_NUM 1150 */
-/* #define PORT_NUM 1050 */
-//#define PORT_NUM 1044
-//#define PORT_NUM 1050
-//#define PORT_NUM 1159
-//#define PORT_NUM 1051
-//#define PORT_NUM 1050
 #define BUFFLEN 100
 
 
