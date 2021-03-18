@@ -1,5 +1,4 @@
 /* Name - Nahushkumar Nitinbhai Rana
-/* USF id - nrana
 /* compile with gcc -o name server.c -lpthread 
 /* Server for socket program   */
 
@@ -22,7 +21,7 @@ char client_message[2000];      //shared memory
 pthread_mutex_t lock = PTHREAD_MUTEX_INITIALIZER;     //mutex lock
 char buffer[1024];       
 
-#define IP_ADDR "131.247.3.8" 
+//#define IP_ADDR "131.247.3.8" 
 #define PORT 1050
 
 
@@ -76,8 +75,8 @@ int main(int argc, char const *argv[])
     
  
     address.sin_family = AF_INET; 
-    //address.sin_addr.s_addr = INADDR_ANY; 
-    address.sin_addr.s_addr = inet_addr(IP_ADDR);
+    address.sin_addr.s_addr = INADDR_ANY; 
+    //address.sin_addr.s_addr = inet_addr(IP_ADDR);
     address.sin_port = htons( PORT ); 
        
     // Forcefully attaching socket to the port 8080 
